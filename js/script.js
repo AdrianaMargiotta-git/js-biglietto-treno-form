@@ -6,7 +6,7 @@ var container = document.getElementById('biglietto');
 var genera = document.getElementById('genera');
 var annulla = document.getElementById('annulla');
 
-//var rest = document.getElementById('reset');
+//var reset = document.getElementById('reset');
 
 
 //GENERARE IL BIGLIETTO
@@ -86,4 +86,4 @@ annulla.addEventListener('click',
     container.className = 'hidden';
 
   }
-)
+);

@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+body{
+  background-image: url(../img/treno1.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
 .contenitore{
   display: flex;
   align-items: center;
@@ -23,7 +29,6 @@
   border: 2px dotted green;
   border-radius: 4%;
   padding: 10px;
-  /*transition: all 4s;*/
   color: red;
   height: 150px;
   width: 50%;
@@ -64,16 +69,13 @@
   border: 2px dotted green;
   border-radius: 4%;
   padding: 10px;
-  /*transition: all 4s;*/
   color: red;
   height: 200px;
   width: 50%;
   background-color: #F2F3F4;
-  opacity: 0.6;
   margin-top: 80px;
 }
 
-/*funziona solo se messo in biglietto*/
 .hidden{
   opacity: 0;
 }
