@@ -4,11 +4,7 @@
   box-sizing: border-box;
 }
 
-
-
-
-
-.container{
+.contenitore{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -75,13 +71,12 @@
   background-color: #F2F3F4;
   opacity: 0.6;
   margin-top: 80px;
-  opacity: 0;
 }
 
 /*funziona solo se messo in biglietto*/
-/*.hidden{
+.hidden{
   opacity: 0;
-}*/
+}
 
 .nome{
   margin-top: 10px;
@@ -104,3 +99,26 @@ table td{
   /*margin-right: 14px;*/
 }
 /*END rules table*/
+
+/*JS*/
+.mostra{
+  animation: show 1.5s linear;
+}
+
+@keyframes mostra {
+  0% {
+    opacity: 0;
+    max-width: 0%;
+  }
+  30% {
+    opacity: 0.5;
+    max-width: 40%;
+  }
+  60% {
+    opacity: 1;
+    max-width: 70%;
+  }
+  100% {
+    max-width: 100%;
+  }
+}
