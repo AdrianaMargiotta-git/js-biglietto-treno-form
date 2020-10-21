@@ -73,14 +73,14 @@ genera.addEventListener('click',
 annulla.addEventListener('click',
   function() {
     //azzera i valori
-    document.getElementById('nome').innerHTML = '';
-    document.getElementById('km').innerHTML = '';
-    document.getElementById('eta').innerHTML = '';
-    document.getElementById('nomePasseggero').innerHTML = '';
-    document.getElementById('offertaApplicata').innerHTML = '';
-    document.getElementById('carrozza').innerHTML = '';
-    document.getElementById('codiceCP').innerHTML = '';
-    document.getElementById('costobiglietto').innerHTML = '';
+    document.getElementById('nome').value = '';
+    document.getElementById('km').value = '';
+    document.getElementById('eta').value = '';
+    document.getElementById('nomePasseggero').value = '';
+    document.getElementById('offertaApplicata').value = '';
+    document.getElementById('carrozza').value = '';
+    document.getElementById('codiceCP').value = '';
+    document.getElementById('costobiglietto').value = '';
 
     //nascondere il BIGLIETTO
     container.className = 'hidden';

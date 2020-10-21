@@ -34,6 +34,7 @@ body{
   width: 50%;
   background-color: #F2F3F4;
   opacity: 0.6;
+  font-size: 20px;
 }
 
 .info2{
@@ -69,15 +70,19 @@ body{
   border: 2px dotted green;
   border-radius: 4%;
   padding: 10px;
-  color: red;
+  color: black;
   height: 200px;
   width: 50%;
-  background-color: #F2F3F4;
+  background-color: rgba(255, 255, 255, .4);;
   margin-top: 80px;
 }
 
 .hidden{
   opacity: 0;
+}
+
+.contenuti{
+  font-size: 20px;
 }
 
 .nome{
