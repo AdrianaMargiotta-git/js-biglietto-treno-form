@@ -9,9 +9,12 @@
 
     <div class="container">
 
-      <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+      <!--decidere se metterlo fuori o dentro la desction info-->
+      <h2>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h2>
 
-      <section class="info">
+      <section id="info">
+
+        <!--<h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>-->
 
         <div class="info2">
 
@@ -39,6 +42,50 @@
         <div class="bottoni">
           <button id="genera" type="button" name="button">Genera</button>
           <button id="annulla" type="button" name="button">Anulla</button>
+        </div>
+
+      </section>
+
+      <section id="biglietto" class="hidden">
+
+        <h2>IL TUO BIGLIETTO</h2>
+        <br><br><br><br>
+        <h3>DETTAGLIO PASSEGGERI</h3>
+
+        <div class="contenuti">
+
+          <!--nome che l'utente ha inserito-->
+          <div class="nome">
+            <h4>Nome del Passeggero</h4>
+            <h5 id="nomePasseggero"></h5>
+          </div>
+
+          <!--offerta alla quale l'utente ha diritto (offerta, carrozza, codice, costo)-->
+          <div class="offerta">
+            <table>
+              <tr>
+                <th>Offerta</th>
+                <th>Carrozza</th>
+                <th>Codice CP</th>
+                <th>Costo biglietto</th>
+              </tr>
+              <tr>
+                <td>
+                  <span id="offertaApplicata">erfre</span>
+                </td>
+                <td>
+                  <span id="carrozza">refe</span>
+                </td>
+                <td>
+                  <span id="codiceCP">erfrre</span>
+                </td>
+                <td>
+                  <span id="costobiglietto">fff</span>
+                </td>
+              </tr>
+            </table>
+          </div>
+
         </div>
 
       </section>
