@@ -75,7 +75,13 @@
   background-color: #F2F3F4;
   opacity: 0.6;
   margin-top: 80px;
+  opacity: 0;
 }
+
+/*funziona solo se messo in biglietto*/
+/*.hidden{
+  opacity: 0;
+}*/
 
 .nome{
   margin-top: 10px;
